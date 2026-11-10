@@ -1,0 +1,40 @@
+{
+  "name": "cuentas-claras",
+  "version": "1.2.1",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "apk": "powershell -ExecutionPolicy Bypass -File scripts/build-apk.ps1",
+    "check": "npm run typecheck && npm test",
+    "setup": "powershell -ExecutionPolicy Bypass -File scripts/setup.ps1",
+    "emulator": "powershell -ExecutionPolicy Bypass -File scripts/emulator.ps1",
+    "smoke": "powershell -ExecutionPolicy Bypass -File scripts/smoke.ps1"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "8.6.0",
+    "@react-native-community/slider": "^5.1.2",
+    "expo": "~55.0.32",
+    "expo-document-picker": "~55.0.17",
+    "expo-file-system": "~55.0.26",
+    "expo-image-picker": "~55.0.24",
+    "expo-modules-core": "~55.0.27",
+    "expo-sharing": "~55.0.25",
+    "expo-sqlite": "~55.0.20",
+    "expo-status-bar": "~55.0.6",
+    "react": "19.2.0",
+    "react-native": "0.83.10",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-svg": "15.15.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~5.9.2"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}
