@@ -8,6 +8,7 @@ modules/**/android/.cxx/
 modules/**/android/.gradle/
 /tmp/
 /output/
+/.referencias-locales/
 .env
 .env.*
 *.local

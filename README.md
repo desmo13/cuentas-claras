@@ -17,6 +17,14 @@ mi móvil». La primera preparación necesita Internet, varios GB y algo de tiem
 Si quieres guardar tus mejoras en tu propio GitHub, puedes usar **Fork** y abrir
 tu copia en Codex. Descargar el ZIP basta para trabajar en tu ordenador.
 
+## Mi compañero ha mejorado la versión antigua en HTML/JS
+
+Puedes incorporar sus mejoras a esta app Android. Pásale a Codex el HTML
+actualizado y los JS/CSS que lo acompañen, o la carpeta que los contiene, y usa
+el segundo mensaje de [EMPEZAR_CON_CODEX.md](EMPEZAR_CON_CODEX.md).
+Las instrucciones explican cómo comparar y adaptar esas mejoras conservando lo
+que ya tiene la app. Consulta [la guía de traspaso](docs/TRASPASAR_MEJORAS_HTML.md).
+
 ## Preparar el entorno
 
 En Windows 10/11 x64, desde la raíz del proyecto:

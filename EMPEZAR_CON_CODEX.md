@@ -19,3 +19,22 @@ En siguientes chats puedes escribir, por ejemplo:
 `AGENTS.md` aporta instrucciones del proyecto al trabajar desde esta carpeta,
 según la [documentación oficial de Codex](https://developers.openai.com/codex/guides/agents-md/).
 El mensaje expresa lo que quieres hacer en la primera sesión.
+
+## Si traes mejoras de la versión antigua en HTML y JavaScript
+
+Adjunta el HTML actualizado y sus archivos JS/CSS, o indica a Codex la carpeta
+donde los has guardado. Si tienes el HTML de antes de los cambios, inclúyelo
+también para facilitar la comparación. Después pega:
+
+> Mi compañero ha seguido mejorando la versión antigua en HTML y JavaScript con
+> Claude Code. Quiero incorporar esas mejoras a la app Android actual de este
+> repositorio. Lee AGENTS.md y docs/TRASPASAR_MEJORAS_HTML.md. Compara los archivos
+> que te paso con esta app; si también tienes la versión HTML anterior, úsala
+> para identificar qué cambió. Adapta las mejoras a React Native conservando las
+> funciones actuales, mis datos y la fluidez. Dime brevemente qué ya existe y qué
+> vas a añadir, y hazlo. Pregunta solo si falta un archivo o una decisión importante.
+> Comprueba las funciones afectadas, genera la APK y enséñame las mejoras en el
+> emulador. Explícamelo en español sencillo. Mantén los archivos de referencia y
+> los datos personales fuera del repositorio público.
+
+Guía del proceso: [traspasar mejoras del HTML](docs/TRASPASAR_MEJORAS_HTML.md).
